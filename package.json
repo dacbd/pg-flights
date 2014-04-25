@@ -1,0 +1,23 @@
+{
+  "name": "pg-flights",
+  "version": "0.0.0",
+  "description": "pg-flights ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBarnes/pg-flights.git"
+  },
+  "author": "Daniel Barnes",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/DanielBarnes/pg-flights/issues"
+  },
+  "homepage": "https://github.com/DanielBarnes/pg-flights",
+  "dependencies": {
+    "togeojson": "^0.7.0",
+    "jsdom": "^0.10.5"
+  }
+}

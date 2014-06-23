@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+<open>1</open>
+  <Folder>
+    <Metadata src="GpsDumpMac" v="0.28" type="trip"/>
+    <open>1</open>
+    <name>Trip</name>
+    <description><![CDATA[
+<pre>
+Flight statistics
+Date                 2014-06-07
+Start/finish         19:07:44 - 19:09:35
+Duration             0 : 01 : 51
+Max./min. height     575 / 541 m
+Max. mean/top speed  30 km/h / 35 km/h
+Max/min climb rate   0.00 / -0.48 m/s over 60s
+Total distance       0.71 km
+</pre>]]>
+    </description>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_5_point">
+        <FsInfo track_idx="0 34 46 61 83" />
+      </Metadata>
+      <name>Distance over 5 points</name>
+      <description>
+        <![CDATA[
+<pre>
+Greatest distance using 5 points
+
+Pos.      Time      Latitude         Longitude         Distance
+ A     1  19:07:44  N 46  14  04.32  W 119  29  48.24
+ B    35  19:08:18  N 46  14  07.68  W 119  29  46.08  0.11
+ C    47  19:08:30  N 46  14  05.58  W 119  29  42.78  0.10
+ D    62  19:08:45  N 46  14  06.36  W 119  29  46.68  0.09
+ E    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.18
+                                                  Sum  0.47
+</pre>]]>
+      </description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -119.496733,46.234533,575
+          -119.496133,46.235467,563
+          -119.495217,46.234883,571
+          -119.496300,46.235100,567
+          -119.494367,46.234233,552
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_4_point">
+        <FsInfo track_idx="0 47 61 83" />
+      </Metadata>
+      <name>Distance over 4 points</name>
+      <description>
+        <![CDATA[
+<pre>
+Greatest distance using 4 points
+
+Pos.      Time      Latitude         Longitude         Distance
+ A     1  19:07:44  N 46  14  04.32  W 119  29  48.24
+ B    48  19:08:31  N 46  14  05.76  W 119  29  42.78  0.13
+ C    62  19:08:45  N 46  14  06.36  W 119  29  46.68  0.09
+ D    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.18
+                                                  Sum  0.39
+</pre>]]>
+      </description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -119.496733,46.234533,575
+          -119.495217,46.234933,571
+          -119.496300,46.235100,567
+          -119.494367,46.234233,552
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_3_point">
+        <FsInfo track_idx="0 34 83" />
+      </Metadata>
+      <name>Distance over 3 points</name>
+      <description>
+        <![CDATA[
+<pre>
+Greatest distance using 3 points
+
+Pos.      Time      Latitude         Longitude         Distance
+ A     1  19:07:44  N 46  14  04.32  W 119  29  48.24
+ B    35  19:08:18  N 46  14  07.68  W 119  29  46.08  0.11
+ C    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.19
+                                                  Sum  0.31
+</pre>]]>
+      </description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -119.496733,46.234533,575
+          -119.496133,46.235467,563
+          -119.494367,46.234233,552
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_open">
+        <FsInfo track_idx="33 83" />
+      </Metadata>
+      <name>Open distance</name>
+      <description>
+        <![CDATA[
+<pre>
+Greatest distance between any 2 points
+
+Pos.      Time      Latitude         Longitude         Distance
+ A    34  19:08:17  N 46  14  07.56  W 119  29  46.44
+ B    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.20
+</pre>]]>
+      </description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -119.496233,46.235433,563
+          -119.494367,46.234233,552
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>FF0000FF</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_out_and_return">
+        <FsInfo track_idx="33 83 109" />
+      </Metadata>
+      <name>Out-and-return distance</name>
+      <description>
+        <![CDATA[
+<pre>
+Out-and-return distance
+
+Pos.      Time      Latitude         Longitude         Distance
+ A    34  19:08:17  N 46  14  07.56  W 119  29  46.44
+ B    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.20
+ C   110  19:09:33  N 46  14  04.44  W 119  29  41.10  0.15
+                                                  Sum  0.24
+</pre>]]>
+      </description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -119.494750,46.234567,541
+          -119.496233,46.235433,563
+          -119.494367,46.234233,552
+        </coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_flat_triangle">
+        <FsInfo track_idx="22 34 59 83 109" />
+      </Metadata>
+      <name>Flat triangle</name>
+      <description>
+        <![CDATA[
+<pre>
+Flat triangle
+
+Pos.      Time      Latitude         Longitude         Distance
+ A    23  19:08:06  N 46  14  05.64  W 119  29  43.98
+ B    35  19:08:18  N 46  14  07.68  W 119  29  46.08  0.05
+ C    60  19:08:43  N 46  14  06.00  W 119  29  46.68  0.17
+ D    84  19:09:07  N 46  14  03.24  W 119  29  39.72  0.19
+ E   110  19:09:33  N 46  14  04.44  W 119  29  41.10  0.07
+                                                  Sum  0.35
+</pre>]]>
+      </description>
+      <MultiGeometry>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.496133,46.235467,563
+            -119.496300,46.235000,569
+            -119.494367,46.234233,552
+            -119.496133,46.235467,563
+          </coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.495550,46.234900,555
+            -119.494750,46.234567,541
+          </coordinates>
+        </LineString>
+      </MultiGeometry>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="distance_fai_triangle">
+        <FsInfo track_idx="0 1 34 46 58" />
+      </Metadata>
+      <name>FAI triangle</name>
+      <description>
+        <![CDATA[
+<pre>
+FAI triangle
+
+Pos.      Time      Latitude         Longitude         Distance
+ A     1  19:07:44  N 46  14  04.32  W 119  29  48.24
+ B     2  19:07:45  N 46  14  04.50  W 119  29  48.06  0.11
+ C    35  19:08:18  N 46  14  07.68  W 119  29  46.08  0.10
+ D    47  19:08:30  N 46  14  05.58  W 119  29  42.78  0.12
+ E    59  19:08:42  N 46  14  05.88  W 119  29  46.50  0.06
+                                                  Sum  0.26
+</pre>]]>
+      </description>
+      <MultiGeometry>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.496683,46.234583,575
+            -119.496133,46.235467,563
+            -119.495217,46.234883,571
+            -119.496683,46.234583,575
+          </coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.496733,46.234533,575
+            -119.496250,46.234967,570
+          </coordinates>
+        </LineString>
+      </MultiGeometry>
+      <Style>
+        <LineStyle>
+          <color>FFFF0000</color>
+        </LineStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <Metadata src="GpsDumpMac" v="0.28" type="track">
+        <FsInfo time_of_first_point="2014-06-07T19:07:44Z"
+                instrument="Flymaster F1, V1.3, S/N 2506"
+                downloaded="2014-06-23T02:53:58Z"
+                hash="D509BA6D938A8908F2CDACC0D3E0605DE6626DE7">
+          <SecondsFromTimeOfFirstPoint>
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 
+75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+100 101 102 103 104 105 106 107 108 109 110 111
+          </SecondsFromTimeOfFirstPoint>
+          <PressureAltitude>
+511 510 511 510 510 510 509 509 508 506 504 502 502 502 502 502 501 501 500 498 496 494 494 493 492 
+491 492 495 496 498 499 500 501 502 502 502 501 500 500 500 502 502 504 506 508 509 509 508 506 506 
+506 507 508 508 508 507 507 507 506 505 504 503 502 500 498 497 497 496 496 496 495 493 492 492 491 
+491 492 492 492 491 489 488 488 488 489 488 487 485 485 483 482 482 481 480 480 480 480 480 480 480 
+480 480 480 480 480 480 480 480 480 480 480 480
+          </PressureAltitude>
+        </FsInfo>
+      </Metadata>
+      <name>Tracklog</name>
+      <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-119.496733,46.234533,575 -119.496683,46.234583,575 -119.496650,46.234633,574 -119.496617,46.234683,574 -119.496567,46.234733,574 
+-119.496533,46.234783,573 -119.496500,46.234833,573 -119.496483,46.234883,572 -119.496467,46.234933,571 -119.496450,46.234967,570 
+-119.496417,46.235017,568 -119.496367,46.235050,566 -119.496283,46.235067,564 -119.496183,46.235083,563 -119.496100,46.235067,563 
+-119.496017,46.235033,564 -119.495950,46.234983,563 -119.495900,46.234917,563 -119.495833,46.234867,562 -119.495750,46.234850,560 
+-119.495667,46.234833,558 -119.495600,46.234867,557 -119.495550,46.234900,555 -119.495533,46.234950,555 -119.495567,46.235017,553 
+-119.495633,46.235083,552 -119.495733,46.235133,553 -119.495833,46.235183,555 -119.495933,46.235200,557 -119.496050,46.235200,559 
+-119.496150,46.235233,560 -119.496233,46.235283,561 -119.496267,46.235350,562 -119.496233,46.235433,563 -119.496133,46.235467,563 
+-119.496017,46.235450,563 -119.495917,46.235417,563 -119.495850,46.235350,563 -119.495800,46.235267,562 -119.495750,46.235183,562 
+-119.495717,46.235083,563 -119.495650,46.235000,564 -119.495550,46.234933,565 -119.495467,46.234883,567 -119.495367,46.234850,569 
+-119.495283,46.234850,571 -119.495217,46.234883,571 -119.495217,46.234933,571 -119.495283,46.234983,570 -119.495400,46.235017,569 
+-119.495517,46.235000,570 -119.495633,46.234950,570 -119.495717,46.234917,572 -119.495817,46.234900,572 -119.495933,46.234900,571 
+-119.496033,46.234933,571 -119.496117,46.234950,571 -119.496183,46.234950,570 -119.496250,46.234967,570 -119.496300,46.235000,569 
+-119.496317,46.235050,568 -119.496300,46.235100,567 -119.496250,46.235117,566 -119.496167,46.235133,564 -119.496067,46.235117,562 
+-119.495967,46.235083,561 -119.495867,46.235033,561 -119.495783,46.234967,561 -119.495717,46.234900,560 -119.495633,46.234850,559 
+-119.495550,46.234783,558 -119.495450,46.234733,557 -119.495350,46.234700,556 -119.495250,46.234650,555 -119.495150,46.234583,554 
+-119.495067,46.234517,555 -119.494983,46.234450,555 -119.494917,46.234383,556 -119.494850,46.234317,556 -119.494767,46.234250,555 
+-119.494667,46.234217,553 -119.494550,46.234200,551 -119.494450,46.234217,551 -119.494367,46.234233,552 -119.494333,46.234283,551 
+-119.494333,46.234317,551 -119.494350,46.234350,550 -119.494383,46.234400,549 -119.494433,46.234433,547 -119.494483,46.234467,546 
+-119.494550,46.234500,545 -119.494633,46.234517,545 -119.494683,46.234533,544 -119.494750,46.234550,543 -119.494750,46.234567,543 
+-119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 
+-119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 
+-119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,542 -119.494750,46.234567,541 -119.494750,46.234567,541 
+-119.494750,46.234550,541 -119.494733,46.234550,541
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+</Document>
